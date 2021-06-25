@@ -81,7 +81,7 @@ python train.py --job 0 --num_epoch 10000
 * Epsilon
   Red/0.7, Green/0.8, Blue/0.9
 
-Note: I don't pull all plots here, but you can find all of them in the ./Results file
+Note: I didn't put all the plots here, but you can find all of them in the ./Results file
 
 ### Reference
 Morvan Zhou
