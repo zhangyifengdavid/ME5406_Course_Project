@@ -71,15 +71,17 @@ python train.py --job 0 --num_epoch 10000
       ![](Results/Comparison/Algorithm/4x4/combination.png)
     * 10x10 grid world
       ![](Results/Comparison/Algorithm/10x10/combination.png)
+      
 * Learning rate
   Red/0.01, Green/0.001, Blue/0.0001
-  ![](Results/Comparison/Learning rate/combination.png)
+  
 * Gamma
   Red/0.8, Green/0.9, Blue/0.99
-  ![](Results/Comparison/Gamma/combination.png)
+  
 * Epsilon
   Red/0.7, Green/0.8, Blue/0.9
-  ![](Results/Comparison/Epsilon/combination.png)
+
+Note: I don't pull all plots here, but you can find all of them in the ./Results file
 
 ### Reference
 Morvan Zhou
