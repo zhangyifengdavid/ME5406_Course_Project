@@ -3,6 +3,7 @@ This is a repository which contains simple implementations for ME5406 Deep learn
 
 ## Problem description
 Consider a RL based robot is in a grid frozen lake environment, where the goal of the robot is to pick up the target while avoid falling into the ice holes
+![frozenlake](images/froze_lake.png)
 
 ## RL algorithm
 1. First visit monte carlo
@@ -37,11 +38,57 @@ If you want to test with Job 0, you could use
 python train.py --job 0 --num_epoch 10000
 ```
 
-### Results
-
+### Training Results
+* First visit Monte Carlo
+  * 4x4 grid world
+    ![](Results/Plot/Monte_carlo_4x4.png)
+    ![]()
+  * 10x10 grid world
+    ![](Results/Plot/Monte_carlo_10x10.png)
+    ![]
+* SARSA
+  * 4x4 grid world
+    ![](Results/Plot/SARSA_4X4.png)
+  * 10x10 grid world
+    ![](Results/Plot/SARSA_10X10.png)
+* Q-learning
+  * 4x4 grid world
+    ![](Results/Plot/Q_learning_4x4.png)
+  * 10x10 grid world
+    ![](Results/Plot/Q_learning_10x10.png)
+    
+* Final policy
+  * 4x4 grid world
+    From left to right: Monte Carlo, SARSA, Q-learning
+    ![](Results/Final policy/4x4/final_policy.png)
+  * 10x10 grid world
+    From left to right: Monte Carlo, SARSA, Q-learning
+    ![](Results/Final policy/10x10/final_policy.png)
+    
+* Additional training for deep Q network
+  * 10x10 grid world
+  ![](Results/DQN/Steps.png)![](Results/DQN/Average rewards.png)![](Results/DQN/Accuracy.png)![](Results/DQN/Success rate.png)
+  
+    
+### Testing Results
+* Algorithm comparisons
+    * 4x4 grid world
+      ![](Results/Comparison/Algorithm/4x4/Steps2.png)![](Results/Comparison/Algorithm/4x4/Average_rewards2.png)![](Results/Comparison/Algorithm/4x4/Accuracy2.png)![](Results/Comparison/Algorithm/4x4/Cost2.png)
+    * 10x10 grid world
+      ![](Results/Comparison/Algorithm/10x10/Steps2.png)![](Results/Comparison/Algorithm/10x10/Average_rewards2.png)![](Results/Comparison/Algorithm/10x10/Accuracy2.png)![](Results/Comparison/Algorithm/10x10/Cost2.png)
+* Learning rate
+  Red/0.01, Green/0.001, Blue/0.0001
+  ![](Results/Comparison/Learning rate/Steps2.png)![](Results/Comparison/Learning rate/Average rewards2.png)![](Results/Comparison/Learning rate/Accuracy2.png)![](Results/Comparison/Learning rate/Cost2.png)
+* Gamma
+  Red/0.8, Green/0.9, Blue/0.99
+  ![](Results/Comparison/Gamma/Steps2.png)![](Results/Comparison/Gamma/Average rewards2.png)![](Results/Comparison/Gamma/accuracy2.png)![](Results/Comparison/Gamma/cost2.png)
+* Epsilon
+  Red/0.7, Green/0.8, Blue/0.9
+  ![](Results/Comparison/Epsilon/Steps2.png)![](Results/Comparison/Epsilon/Average rewards2.png)![](Results/Comparison/Epsilon/Accuracy2.png)![](Results/Comparison/Epsilon/Cost2.png)
+  
 
 ### Reference
-
+Morvan Zhou
 
 ### Acknowledgement
 Don't forget to give me a star if you like this! :blush:
