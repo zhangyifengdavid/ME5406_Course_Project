@@ -7,7 +7,7 @@ from SARSA import SARSA
 from Q_learning import Q_learning
 
 parser = argparse.ArgumentParser(description="Parameters need to be input for training")
-parser.add_argument('--agent', default=0)
+parser.add_argument('--agent', default='ql')
 parser.add_argument('--grid_size', default=4)
 parser.add_argument('--num_epoch', default='10000')
 args = parser.parse_args()
