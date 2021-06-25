@@ -1,0 +1,12 @@
+
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/ME5406_Course_Project.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+__pycache__/Environment.cpython-38.pyc
+__pycache__/Monte_carlo_control.cpython-38.pyc
+__pycache__/Parameters.cpython-38.pyc
+__pycache__/Q_learning.cpython-38.pyc
+__pycache__/SARSA.cpython-38.pyc
