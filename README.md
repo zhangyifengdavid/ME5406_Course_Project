@@ -73,13 +73,13 @@ python train.py --job 0 --num_epoch 10000
       ![](Results/Comparison/Algorithm/10x10/combination.png)
 * Learning rate
   Red/0.01, Green/0.001, Blue/0.0001
-  ![](Results\Comparison\Learning rate\combination.png)
+  ![](Results/Comparison/Learning rate/combination.png)
 * Gamma
   Red/0.8, Green/0.9, Blue/0.99
-  ![](Results\Comparison\Gamma\combination.png)
+  ![](Results/Comparison/Gamma/combination.png)
 * Epsilon
   Red/0.7, Green/0.8, Blue/0.9
-  ![](Results\Comparison\Epsilon\combination.png)
+  ![](Results/Comparison/Epsilon/combination.png)
 
 ### Reference
 Morvan Zhou
