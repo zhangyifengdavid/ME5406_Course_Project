@@ -59,10 +59,12 @@ python train.py --job 0 --num_epoch 10000
 * Final policy
   * 4x4 grid world
     From left to right: Monte Carlo, SARSA, Q-learning
+    
     ![](Results/Final policy/4x4/final_policy.png)
     
   * 10x10 grid world
     From left to right: Monte Carlo, SARSA, Q-learning
+    
     ![](Results/Final policy/10x10/final_policy.png)
     
 ### Testing Results
