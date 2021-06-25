@@ -3,6 +3,7 @@ This is a repository which contains simple implementations for ME5406 Deep learn
 
 ## Problem description
 Consider a RL based robot is in a grid frozen lake environment, where the goal of the robot is to pick up the target while avoid falling into the ice holes
+
 ![frozenlake](images/froze_lake.png)
 
 ## RL algorithm
@@ -59,6 +60,7 @@ python train.py --job 0 --num_epoch 10000
   * 4x4 grid world
     From left to right: Monte Carlo, SARSA, Q-learning
     ![](Results/Final policy/4x4/final_policy.png)
+    
   * 10x10 grid world
     From left to right: Monte Carlo, SARSA, Q-learning
     ![](Results/Final policy/10x10/final_policy.png)
@@ -66,18 +68,18 @@ python train.py --job 0 --num_epoch 10000
 ### Testing Results
 * Algorithm comparisons
     * 4x4 grid world
-      ![](Results/Comparison/Algorithm/4x4/Steps2.png)
+      ![](Results/Comparison/Algorithm/4x4/combination.png)
     * 10x10 grid world
-      ![](Results/Comparison/Algorithm/10x10/Steps2.png)
+      ![](Results/Comparison/Algorithm/10x10/combination.png)
 * Learning rate
   Red/0.01, Green/0.001, Blue/0.0001
-  ![](Results/Plot/lr.png)
+  ![](Results\Comparison\Learning rate\combination.png)
 * Gamma
   Red/0.8, Green/0.9, Blue/0.99
-  ![](Results/Plot/gamma.png)
+  ![](Results\Comparison\Gamma\combination.png)
 * Epsilon
   Red/0.7, Green/0.8, Blue/0.9
-  ![](Results/Plot/epsilon.png)
+  ![](Results\Comparison\Epsilon\combination.png)
 
 ### Reference
 Morvan Zhou
