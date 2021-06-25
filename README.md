@@ -47,38 +47,49 @@ python train.py --job 0 --num_epoch 10000
     ![](Results/Plot/Monte_carlo_10x10.png)
 * SARSA
   * 4x4 grid world
+    
     ![](Results/Plot/SARSA_4X4.png)
   * 10x10 grid world
+    
     ![](Results/Plot/SARSA_10X10.png)
 * Q-learning
   * 4x4 grid world
+    
     ![](Results/Plot/Q_learning_4x4.png)
   * 10x10 grid world
+    
     ![](Results/Plot/Q_learning_10x10.png)
     
 * Final policy
   * 4x4 grid world
     From left to right: Monte Carlo, SARSA, Q-learning
+    
     ![](Results/Final policy/4x4/final_policy.png)
     
   * 10x10 grid world
     From left to right: Monte Carlo, SARSA, Q-learning
+    
     ![](Results/Final policy/10x10/final_policy.png)
     
 ### Testing Results
 * Algorithm comparisons
     * 4x4 grid world
+      
       ![](Results/Comparison/Algorithm/4x4/combination.png)
     * 10x10 grid world
+      
       ![](Results/Comparison/Algorithm/10x10/combination.png)
 * Learning rate
   Red/0.01, Green/0.001, Blue/0.0001
+  
   ![](Results/Comparison/Learning rate/combination.png)
 * Gamma
   Red/0.8, Green/0.9, Blue/0.99
+  
   ![](Results/Comparison/Gamma/combination.png)
 * Epsilon
   Red/0.7, Green/0.8, Blue/0.9
+  
   ![](Results/Comparison/Epsilon/combination.png)
 
 ### Reference
